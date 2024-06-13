@@ -1,97 +1,97 @@
 [
     {
         "name": "Alexandria Ocasio-Cortez",
-        "intro": "A Democratic congresswoman from New York, known for her progressive stances on issues like climate change, healthcare, and economic inequality. She's a vocal advocate for 'The Green New Deal' and has gained a massive following for her outspokenness.",
-        "key_points": [
+        "introduction": "A Democratic congresswoman from New York, known for her progressive stances on issues like climate change, healthcare, and economic inequality. She's a vocal advocate for 'The Green New Deal' and has gained a massive following for her outspokenness.",
+        "keyPoints": [
             "Former bartender and activist",
             "Elected in 2018",
             "Youngest woman to serve in Congress"
         ],
-        "img": "",
-        "twitter_handle": "@AOC",
+        "image": "",
+        "twitterHandle": "@AOC",
         "website": "https://ocasio-cortez.house.gov/",
         "district": "14th Congressional District of New York",
-        "votes": 0
+        "votes": 10
     },
     {
         "name": "Bernie Sanders",
-        "intro": "A Democratic senator from Vermont, Sanders is a self-described democratic socialist known for his progressive policies, including Medicare for All, free college tuition, and a focus on income inequality.",
-        "key_points": [
+        "introduction": "A Democratic senator from Vermont, Sanders is a self-described democratic socialist known for his progressive policies, including Medicare for All, free college tuition, and a focus on income inequality.",
+        "keyPoints": [
             "Ran for president in 2016 and 2020",
             "Champion of progressive causes",
             "Strong following among young voters"
         ],
         "img": "",
-        "twitter_handle": "@BernieSanders",
+        "twitterHandle": "@BernieSanders",
         "website": "https://www.sanders.senate.gov/",
         "state": "Vermont",
-        "votes": 0
+        "votes": 10
     },
     {
         "name": "Mitch McConnell",
-        "intro": "The Republican Senate Majority Leader, McConnell is a powerful figure in American politics, known for his ability to maneuver legislation and his conservative views. He's often criticized for his tactics and his support of President Trump.",
-        "key_points": [
+        "introduction": "The Republican Senate Majority Leader, McConnell is a powerful figure in American politics, known for his ability to maneuver legislation and his conservative views. He's often criticized for his tactics and his support of President Trump.",
+        "keyPoints": [
             "Longest-serving Senate leader in history",
             "Known for his political maneuvering and ability to block legislation"
         ],
-        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
-        "twitter_handle": "@senatemajldr",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+        "twitterHandle": "@senatemajldr",
         "website": "https://www.mcconnell.senate.gov/",
         "state": "Kentucky",
         "votes": 0
     },
     {
         "name": "Elizabeth Warren",
-        "intro": "A Democratic senator from Massachusetts, Warren is known for her progressive policies, her expertise in consumer protection, and her fierce critiques of corporate influence in government. She's a prominent advocate for policies like student loan forgiveness and a wealth tax.",
-        "key_points": [
+        "introduction": "A Democratic senator from Massachusetts, Warren is known for her progressive policies, her expertise in consumer protection, and her fierce critiques of corporate influence in government. She's a prominent advocate for policies like student loan forgiveness and a wealth tax.",
+        "keyPoints": [
             "Former law professor",
             "Focused on consumer protection and economic fairness",
             "Ran for president in 2020"
         ],
-        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
-        "twitter_handle": "@SenWarren",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+        "twitterHandle": "@SenWarren",
         "website": "https://www.warren.senate.gov/",
         "state": "Massachusetts",
         "votes": 0
     },
     {
         "name": "Joe Biden",
-        "intro": "The 46th President of the United States, Biden is a Democratic politician with a long career in public service, including serving as Vice President under Barack Obama. He's known for his moderate views and his focus on bipartisanship.",
-        "key_points": [
+        "introduction": "The 46th President of the United States, Biden is a Democratic politician with a long career in public service, including serving as Vice President under Barack Obama. He's known for his moderate views and his focus on bipartisanship.",
+        "keyPoints": [
             "Long-time senator from Delaware",
             "Known for his experience and ability to work across the aisle",
             "Focused on issues like healthcare and infrastructure"
         ],
-        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
-        "twitter_handle": "@POTUS",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+        "twitterHandle": "@POTUS",
         "website": "https://www.whitehouse.gov/",
         "state": "Delaware",
         "votes": 0
     },
     {
         "name": "Kamala Harris",
-        "intro": "The 49th Vice President of the United States, Harris is a Democratic politician known for her strong stances on issues like criminal justice reform and her prosecutorial background. She's the first woman and first person of color to hold the office.",
-        "key_points": [
+        "introduction": "The 49th Vice President of the United States, Harris is a Democratic politician known for her strong stances on issues like criminal justice reform and her prosecutorial background. She's the first woman and first person of color to hold the office.",
+        "keyPoints": [
             "Former senator from California",
             "Served as California Attorney General",
             "Focused on issues like criminal justice reform and voting rights"
         ],
-        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
-        "twitter_handle": "@VP",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+        "twitterHandle": "@VP",
         "website": "https://www.whitehouse.gov/administration/vice-president-harris/",
         "state": "California",
         "votes": 0
     },
     {
         "name": "Kevin McCarthy",
-        "intro": "A Republican politician from California, McCarthy is the Speaker of the House, the third-highest ranking official in the United States government. He's known for his close ties to former President Trump and his conservative views.",
-        "key_points": [
+        "introduction": "A Republican politician from California, McCarthy is the Speaker of the House, the third-highest ranking official in the United States government. He's known for his close ties to former President Trump and his conservative views.",
+        "keyPoints": [
             "Represents California's 23rd congressional district",
             "Serves as the House Republican leader",
             "Known for his support of President Trump"
         ],
-        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
-        "twitter_handle": "@GOPLeader",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+        "twitterHandle": "@GOPLeader",
         "website": "https://www.republicanleader.gov/",
         "state": "California",
         "votes": 0

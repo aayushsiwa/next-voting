@@ -13,3 +13,13 @@
     background: black;
     color: white;
 }
+
+@keyframes flash {
+    0% { opacity: 0.5; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.img-loading {
+    animation: flash 2s infinite;
+}
