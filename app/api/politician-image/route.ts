@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export async function GET(req: NextRequest) {
     // console.log(req); // Logging the request object
     // const { name } = req?.url; // Retrieving the "name" query parameter
-    console.log("Name parameter:", req.url); // Logging the "name" parameter
+    // console.log("Name parameter:", req.url); // Logging the "name" parameter
     const name = req.url.split("=")[1];
     const formattedName = name.split(" ").join("_");
     const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&titles=${formattedName}&formatversion=2&pithumbsize=250`;
@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
         }
 
         const imageUrl = pages[pageId].thumbnail.source;
-        console.log(imageUrl);
+        // console.log(imageUrl);
         return NextResponse.json({ imageUrl });
     } catch (error) {
         console.error("Error fetching politician image:", error);

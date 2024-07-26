@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ name }) => {
     const [imageUrl, setImageUrl] = useState<string | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const [votes, setVotes] = useState<number>(0);
+    var [votes, setVotes] = useState<number>(0);
 
     useEffect(() => {
         const fetchPoliticianData = async () => {
@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({ name }) => {
                 const { data, error } = await supabase
                     .from("candidates")
                     .select()
-                    .eq("candidates.name", name);
+                    .eq("name", name);
 
                 if (error) {
                     throw new Error(error.message);
@@ -26,7 +26,7 @@ const Card: React.FC<CardProps> = ({ name }) => {
 
                 if (data && data.length > 0) {
                     setPolitician(data[0]);
-                    setVotes(data[0].votes || 0);
+                    setVotes(data[0].votes);
                 } else {
                     throw new Error("Politician data not found");
                 }
@@ -53,20 +53,29 @@ const Card: React.FC<CardProps> = ({ name }) => {
         fetchPoliticianImage();
     }, [name]);
 
-    const handleVote = () => {
-        setVotes((prevVotes) => prevVotes + 1);
+    const handleVote = async () => {
+        if (votes === undefined) {
+            // Handle the case where votes is undefined
+            return;
+        }
+        // console.log("Voting for", name, votes);
+        votes = votes + 1;
+        setVotes(votes);
+        // console.log("Voted for", name, votes);
+        const { data, error } = await supabase
+            .from("candidates")
+            .update({ votes: votes })
+            .eq("name", name)
+            .select();
+        // console.log(data);
     };
-
-    if (error) {
-        return <div>Error: {error}</div>;
-    }
 
     const intro = politician?.introduction || "";
     const introLines = intro.split(" ").slice(0, 15).join(" ");
     const placeholderImageUrl = `https://via.placeholder.com/150?text=${name}`;
 
     return (
-        <div className="border-white border-2 min-w-96 max-w-[30%] rounded-lg overflow-hidden">
+        <div className="border-white border-2 min-w-96 max-w-[30%] rounded-lg overflow-hidden h-60 flex flex-col justify-between">
             <div className="card-header flex justify-between pt-2">
                 <h2 className="text-2xl font-semibold text-start ms-4">
                     {name}
@@ -77,7 +86,7 @@ const Card: React.FC<CardProps> = ({ name }) => {
             </div>
 
             <div className="card-body flex gap-1 m-2 items-center">
-                <div className="border-2 border-blue-500 rounded-full w-full overflow-hidden">
+                <div className="border-2 border-blue-500 rounded-full w- overflow-hidden">
                     {loading ? (
                         <img
                             src={placeholderImageUrl}
