@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Card from "./components/Card/index";
 import { supabase } from "./lib/helper/supabaseClient";
+import Main from "./components/Main/index";
 
 export default function Home() {
     const [politicianData, setPoliticianData] = useState<any[]>([]);
@@ -28,13 +28,9 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="py-16 flex flex-col items-center justify-center gap-y-8">
-            <h1 className="text-2xl font-semibold">Voting Dashboard</h1>
-            <div className="flex flex-wrap justify-center items-center gap-4">
-                {politicianData.map((politician: any) => (
-                    <Card key={politician.id} name={politician.name} />
-                ))}
-            </div>
+        <main className="pb-16 pt-4 flex flex-col items-center justify-center gap-y-8">
+            <h1 className="text-5xl font-semibold">Voting Dashboard</h1>
+            <Main politicianData={politicianData} />
         </main>
     );
 }

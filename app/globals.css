@@ -23,3 +23,12 @@
 .img-loading {
     animation: flash 2s infinite;
 }
+
+::-webkit-scrollbar{
+    width: 1px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 162, 255);
+}
